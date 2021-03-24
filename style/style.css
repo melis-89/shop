@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+background: #E5E5E5;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header_inner {
+    padding: 20px 0;
+    border-radius: 50px 50px 0 0;
+    background: white;
+}
+
+.header_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+    text-decoration: none;
+
+}
+
+.menu_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    margin-left: 20px;
+}
+
+.fas {
+    font-weight: normal;
+}
+
+.fa-heart {
+    font-weight: normal;
+    margin: 0 30px;
+}
+
+#hero {
+min-height: 745px;
+    background: url("../images/background/section1.png")center left/cover;
+}
+
+.hero_item {
+    min-height: 745px;
+    position: relative;
+}
+
+.hero_item_content {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    width: 450px;
+}
+
+.hero_desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.hero_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+
+.hero_link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 25px;
+    background: #22262A;
+    margin-right: 35px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#category {
+    padding-top: 120px;
+    background: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.item {
+    padding: 0 15px;
+}
+
+.category__img {
+    width: 100%;
+}
+.female__img-row{
+    display: flex;
+    margin: 20px -12px 0 -12px
+}
+.female__img-col-6 {
+    width: 50%;
+}
+
+.female__img-item {
+    padding: 0 12px;
+
+}
+.female {
+    width: 100%;
+}
+
+.catalog__img-man {
+    min-height: 570px;
+    background: #00000050  url("../images/section_category/bg.men.png");
+    background-blend-mode: darken;
+    position: relative;
+
+
+}
+.category__link {
+    display: inline-block;
+    background: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #22262A;
+    text-decoration: none;
+    padding: 5px 25px;
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+#catalog__women {
+    padding-top: 115px;
+    background: white;
+}
+
+.catalog__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.catalog__item {
+    padding: 0 10px;
+}
+
+.section__catalog-title {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+    margin-bottom: 15px;
+
+}
+
+.section__catalog-desc {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+    margin-bottom: 65px;
+
+}
+
+.catalog__img {
+    width: 100%;
+}
+
+.catalog__desc {
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    margin-top: 40px;
+}
+
+.catalog__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.catalog__price {
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: #ccc;
+}
+.new {
+    color: red;
+}
+
+#catalog__men {
+    padding-top: 115px;
+    background: white;
+}
+
+#styles {
+    padding-top: 115px;
+    background: white;
+    padding-bottom: 120px;
+}
+
+.section__styles-title {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+    margin-bottom: 15px;
+}
+
+.section__styles-desc {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+    margin-bottom: 65px;
+}
+
+.styles__img-item {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.style__img-right-item {
+    width: 100%;
+}
+.layer__styles {
+    position: relative;
+    min-height: 300px;
+}
+
+.layerr__styles-img {
+    position: absolute;
+    right: -38px;
+    top: -42px;
+    padding: 20px 0 0 20px;
+    background: white;
+    min-height: 280px;
+}
+
+.styles__link{
+    position: absolute;
+    bottom: 70px;
+    left: 110px;
+    text-decoration: none ;
+    color: #000 ;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+#tachen {
+    min-height: 745px;
+    background: url("../images/background/section_tachen.png")right center/cover no-repeat;
+}
+
+.tachen__item {
+    min-height: 745px;
+    position: relative;
+}
+
+.tachen__item-content {
+    position: absolute;
+    width: 430px;
+    left: 100px;
+    bottom: 130px;
+}
+
+.tachen__desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.tachen__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+
+.tachen__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 25px;
+    background: #22262A;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#info {
+    padding-top: 115px;
+    background: #F2F8FC;
+    min-height: 600px;
+}
+
+.info__desc {
+    display: block;
+    margin-top:  15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    width: 400px;
+}
+
+.location__desc {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.info__location {
+    margin: 40px 0 15px 0;
+}
+
+.info__email {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    text-decoration: none;
+    border-bottom: 1px solid #22262A;
+    width: 235px;
+    padding-bottom:  5px;
+    text-align: center;
+}
+
+.info__idx {
+    display: block;
+    margin: 5px 0 15px 0
+}
+
+ .social__info {
+     display: flex;
+     justify-content: space-between;
+     width: 110px;
+ }
+
+.info__row {
+    display: flex;
+}
+
+.email__title {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+    margin-bottom: 25px;
+}
+
+.email__label {
+    position: relative;
+}
+#user__email {
+    width: 100%;
+    padding:10px 0 10px 25px;
+    border: none;
+    box-shadow: 0 0 2px 0 #626262;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn__join {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    border: none ;
+    background: white;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    top: 0;
+    outline: none;
+}
+
+#user__email::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A
+}
+.bottom__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__menu-list {
+    list-style-type: none;
+}
+
+.menu__link-desc {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+    text-decoration: none ;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.bottom__menu-link {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.footer__content {
+    padding: 35px 0;
+    text-align: center;
+    background : #E7F5F8;
+    border-radius: 0 0 50px 50px;
+}
+
+.footer__desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
